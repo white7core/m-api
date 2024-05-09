@@ -8,7 +8,7 @@
     "scripts": {
         "start": "node lib/api.js",
         "dev": "nodemon lib/api.js",
-        "heroku-postbuild": "mkdir ./.cache && mv /app/.cache/puppeteer ./.cache"
+        "heroku-postbuild": "mkdir ./.cache && mv /app/.cache/puppeteer ./.cache",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
